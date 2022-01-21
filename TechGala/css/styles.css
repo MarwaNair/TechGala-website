@@ -23,6 +23,7 @@ h6 {
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
+  z-index: 1;
 }
 
 /* Containers */
@@ -84,6 +85,19 @@ h6 {
   padding-left: 10%;
 }
 
+.btn {
+  background: rgba(254, 230, 9, 0.35);
+  border: 2px solid rgba(254, 230, 9, 0.35);
+  box-sizing: border-box;
+  border-radius: 30px 0px;
+  color: #ffffff;
+  padding: 4%;
+  margin: 10px 5px 20px;
+}
+
+btn:hover {
+  color: #23395b;
+}
 /* Title Image */
 
 .title-img {
@@ -111,9 +125,8 @@ h6 {
   position: relative;
 }
 
-.col-sm-2 {
+.timeleft-col {
   margin: 0 1%;
-  width: min-content;
   text-align: center;
   border-radius: 40px;
 }
@@ -123,8 +136,8 @@ h6 {
   padding-top: 40px;
 }
 
-.col-sm-2 p {
-  font-size: x-large;
+.timeleft-col p {
+  font-size: 1.2rem;
   font-weight: normal;
   color: white;
 }
@@ -134,7 +147,16 @@ h6 {
 #about {
   padding-bottom: 30px;
 }
-
+/* .about-title::after {
+  content: "";
+  background-color: #fee60959;
+  width: 30%;
+  height: 10%;
+  position: absolute;
+  bottom: 67%;
+  left: 20%;
+}
+ */
 /* Venue Section */
 
 #venue {
@@ -157,6 +179,15 @@ h6 {
 #sponsor {
   padding: 100px;
 }
+/* .sponsor-title::after {
+  content: "";
+  background-color: #fee60959;
+  width: 30%;
+  height: 10%;
+  position: absolute;
+  bottom: 67%;
+  left: 20%;
+} */
 
 /* Footer Section */
 

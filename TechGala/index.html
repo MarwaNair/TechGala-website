@@ -79,7 +79,7 @@
             <!-- Date and Time -->
             <p class="date-text" ><i class="far fa-calendar date-icons"></i>March, 13th 2022</p>
             <p class="date-text"><i class="far fa-clock date-icons"></i>at 10:00 AM</p>
-            <button type="button" class="btn btn-primary btn-lg btn-warning">Register now</button>
+            <button type="button" class="btn ">Register now</button>
           </div>
           <div class="col-lg-6">
             <img class="title-img" src="images/CSE.svg" alt="cse-img">
@@ -94,23 +94,24 @@
 
   <section  id="time-left" class=" gradient-section">
       <div class="row" style="margin-right: 5%;">
-        <div class="col-lg-3" style="color: white;">
+        <div class="col-lg-4 col-md-4 " style="color: white;">
           <h3 style="margin-bottom: 20px;">Time left</h3>
           <p>Every second counts </p><p> Register now !</p>
         </div>
-        <div class="col-sm-2 fa-border" style="border-radius: 5px;">
-          <h2 class="zero">00</h2><p>Days</p>
+        <div class="row col-lg-8">
+        <div class=" timeleft-col col-sm-2 col-md-2 fa-border" style="border-radius: 5px;">
+          <h2 class="zero day">00</h2><p>Days</p>
         </div>
-        <div class="col-sm-2 fa-border" style="border-radius: 5px;">
-          <h2 class="zero">00</h2><p>Hours</p>
+        <div class="timeleft-col col-sm-2 col-md-2 fa-border" style="border-radius: 5px;">
+          <h2 class="zero hour">00</h2><p>Hours</p>
         </div>
-        <div class="col-sm-2 fa-border" style="border-radius: 5px;">
-          <h2 class="zero">00</h2><p>Minutes</p>
+        <div class="timeleft-col col-sm-2 col-md-2 fa-border" style="border-radius: 5px;">
+          <h2 class="zero minute">00</h2><p>Minutes</p>
         </div>
-        <div class="col-sm-2 fa-border" style="border-radius: 5px;">
-          <h2 class="zero">00</h2><p>Seconds</p>
+        <div class="timeleft-col col-sm-2 col-md-2 fa-border" style="border-radius: 5px;">
+          <h2 class="zero second">00</h2><p>Seconds</p>
         </div>
-        
+      </div>
       </div>
   </section>
 
@@ -121,7 +122,7 @@
     <div class="container">
       <div class="row">
         <div class="col" style="text-align: left; padding-top: 30px;">
-          <h3>About</h3>
+          <h3 class="section-heading about-title">About</h3>
           <p>The second edition of TechGALA, is an online event
             <br>organized by CSE, aiming to creat a design
             <br>community in Algeria.
@@ -138,15 +139,15 @@
        
       </div>
        <!--Date and time-->
-      <div class="date-container">
-        <h3>When & where ?</h3>
+      <div class=" date-container">
+        <h3  class="section-heading">When & where ?</h3>
         <div class="row">
           <div class="col-lg-6">
             <p style="color: white;"> <i class="far fa-calendar date-icons"></i>Sunday, Marth 13th, 2022. At 10:00 AM</p>
 
           </div>
           <div class="col-lg-6">
-            <p style="color: white;"><i class="fas fa-map-marker-alt"></i> Higher national school of computer science,Oued Smar,Algiers</p>
+            <p style="color: white;"><i class="fas fa-map-marker-alt"></i> Higher national school of computer science, Oued Smar, Algiers</p>
 
           </div>
         </div>
@@ -162,7 +163,7 @@
   <!-- Venue -->
 
   <section class="blue-section" id="venue">
-    <h3 style="padding-bottom: 50px;">Venue</h3>
+    <h3  class="section-heading" style="padding-bottom: 50px;">Venue</h3>
     <div class="container venue row">
         <div class="col-lg-3">
           <img src="images/pr_conference.jpg" alt="conference2">
@@ -183,7 +184,7 @@
 
   <section class="blue-section" id="sponsor">
 
-    <h3 style="padding-bottom: 30px;">Our Sponsor</h3>
+    <h3 class="sponsor-title section-heading" style="padding-bottom: 30px;">Our Sponsor</h3>
     <img src="images/Ooredoo.svg" alt="ooredoo" width="150px">
 
   </section>
@@ -198,7 +199,7 @@
         
           <ul>
             <li>
-              <h3>Contact us</h3>
+              <h3 >Contact us</h3>
             </li>
             <li>
               <i class="fab fa-facebook-f icons"></i>
@@ -235,7 +236,10 @@
 
   <!--  ion icon setup -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="index.js"></script>
+
+
 </body>
 
 </html>
