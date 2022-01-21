@@ -1,0 +1,201 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+/* Headings  */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.dark-blue-section {
+  background-color: #161925;
+}
+.blue-section {
+  background-color: #23395b;
+  color: white;
+}
+.light-section {
+  background-color: #b7c7d8;
+  color: #23395b;
+}
+
+.gradient-section {
+  background: linear-gradient(to right, rgba(22, 25, 37, 1), #23395b);
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 2rem 8rem 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Poppins";
+}
+
+/* Title section */
+
+#title .container-fluid {
+  padding: 1% 5% 10%;
+  text-align: left;
+}
+
+.header {
+  padding-top: 80px;
+}
+
+.title {
+  text-align: left;
+  padding-left: 10%;
+}
+
+/* Title Image */
+
+.title-img {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Date and time */
+
+.date-icons {
+  margin: 5px 10px;
+  color: white;
+}
+.date-text {
+  color: white;
+}
+.date-container {
+  padding: 10% 15% 2%;
+}
+/* Time Left Section */
+#time-left {
+  text-align: left;
+  padding: 5% 0 5% 5%;
+  position: relative;
+}
+
+.col-sm-2 {
+  margin: 0 1%;
+  width: min-content;
+  text-align: center;
+  border-radius: 40px;
+}
+.zero {
+  font-size: 3rem;
+  color: white;
+  padding-top: 40px;
+}
+
+.col-sm-2 p {
+  font-size: x-large;
+  font-weight: normal;
+  color: white;
+}
+
+/* About section */
+
+#about {
+  padding-bottom: 30px;
+}
+
+/* Venue Section */
+
+#venue {
+  padding-top: 50px;
+  padding-bottom: 3%;
+}
+
+.venue {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.venue img {
+  height: 180px;
+}
+
+/* Sponsor Section */
+
+#sponsor {
+  padding: 100px;
+}
+
+/* Footer Section */
+
+footer {
+  color: #b7c7d8;
+  padding: 8px;
+}
+
+.icons {
+  margin: 0px 10px;
+}
+
+.contact-info p {
+  display: inline;
+}
+.contact-info img {
+  display: inline-block;
+  width: 20px;
+  margin-right: 20px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
