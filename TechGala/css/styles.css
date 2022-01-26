@@ -26,6 +26,13 @@ h6 {
   z-index: 1;
 }
 
+.highlight {
+  background: linear-gradient(to top, rgba(254, 230, 9, 0.35) 55%, transparent 55%);
+  text-align: center;
+  padding-right: 6%;
+  padding-left: 3%;
+}
+
 /* Containers */
 
 .container-fluid {
@@ -177,7 +184,7 @@ btn:hover {
 /* Sponsor Section */
 
 #sponsor {
-  padding: 100px;
+  padding: 0px 100px 100px 100px;
 }
 /* .sponsor-title::after {
   content: "";
@@ -220,7 +227,7 @@ li {
   margin-bottom: 10px;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 900px) {
   #title {
     text-align: center;
   }
@@ -228,5 +235,17 @@ li {
   .title-img {
     position: static;
     transform: rotate(0);
+  }
+  .highlight{
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .venue img {
+    width: 300px;
+  }
+  .venue.row {
+    margin-left:auto;
+    margin-right: auto;
   }
 }
