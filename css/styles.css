@@ -27,7 +27,11 @@ h6 {
 }
 
 .highlight {
-  background: linear-gradient(to top, rgba(254, 230, 9, 0.35) 55%, transparent 55%);
+  background: linear-gradient(
+    to top,
+    rgba(254, 230, 9, 0.35) 55%,
+    transparent 55%
+  );
   text-align: center;
   padding-right: 6%;
   padding-left: 3%;
@@ -206,7 +210,9 @@ footer {
 .icons {
   margin: 0px 10px;
 }
-
+.contact-info {
+  align-items: center;
+}
 .contact-info p {
   display: inline;
 }
@@ -236,16 +242,16 @@ li {
     position: static;
     transform: rotate(0);
   }
-  .highlight{
+  .highlight {
     font-size: 30px;
     text-align: center;
   }
-  
+
   .venue img {
     width: 300px;
   }
   .venue.row {
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
   }
 }
