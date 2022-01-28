@@ -168,7 +168,7 @@ btn:hover {
 
 .venue {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 30px;
   margin-left: auto;
   margin-right: auto;
